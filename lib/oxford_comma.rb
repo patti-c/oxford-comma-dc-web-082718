@@ -6,6 +6,6 @@ def oxford_comma(array)
   else 
     last_item = array.pop
     list = array.join(", ")
-    list << ", and "last_item
+    list << ", and " last_item
   end 
 end
